@@ -19,7 +19,7 @@ def print_out(text_input):
     name_list.append(text_input)
     my_label.config(text = text_input )
     # print(name_list)
-    e3.delete(0,'end')
+    e3.delete(0,'end') # delete entry box 
 
 
 def randomize_name():
@@ -28,6 +28,7 @@ def randomize_name():
 
 
 def winner_window():
+    my_label.config(text ="") # reset the label so that it is empty
     global pop
     pop = Toplevel(root) # new pop up window
     pop.geometry("400x400")
