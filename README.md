@@ -1,3 +1,3 @@
 # name_randomizer_tkinter
-Writing a randomizer
+Making a name randomizer 
 
